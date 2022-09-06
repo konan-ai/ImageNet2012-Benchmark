@@ -15,7 +15,7 @@
   </tr>
   <tr><td>ResNet34</td>
       <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link](https://drive.google.com/file/d/1-sI3Gj45KIeg8ShZszxn5jT-sA_Hc3zR/view?usp=sharing) <br> [Link] <br> [Link] </td>
+      <td> <a href="https://drive.google.com/file/d/1-sI3Gj45KIeg8ShZszxn5jT-sA_Hc3zR/view?usp=sharing"> Link </a> <br> [Link] <br> [Link] </td>
       <td> [Link]  <br> [Link] <br> [Link] </td>
       <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
       <td> -        <br> XX.X    <br> XX.X   </td>
