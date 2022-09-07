@@ -4,392 +4,111 @@
 
 <table>
   
-  <tr><td> Architecture </td>
-      <td> Framework    </td>
-      <td> Model        </td>
-      <td> Logits       </td>
-      <td> Size         </td> <td>% Diff</td>
-      <td> Top-1        </td> <td>% Diff</td>
-      <td> Top-5        </td> <td>% Diff</td>
-      <td> Xent         </td> <td>% Diff</td>
-  </tr>
-  <tr><td>ResNet34</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> <a href="https://drive.google.com/file/d/1-sI3Gj45KIeg8ShZszxn5jT-sA_Hc3zR/view?usp=sharing"> Link </a> <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>AlexNet</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>VGG-11</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>VGG-13</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>VGG-16</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>VGG-19</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>VGG-11 BN</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>VGG-16 BN</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>VGG-19 BN</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>ResNet-18</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>ResNet-34</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>ResNet-50</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>ResNet-101</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>ResNet-152</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>SqueezeNet 1.0</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>SqueezeNet 1.1</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>Densenet-121</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>Densenet-169</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>Densenet-201</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>Densenet-161</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>Inception V3</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>GoogleNet</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>ShuffleNet V2</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>MobileNet V2</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>ResNeXt-50-32x4d</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>ResNeXt-101-32x8d</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>Wide ResNet-50-2</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>Wide ResNet-101-2</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
-  <tr><td>MNASNet</td>
-      <td> PyTorch (fp32)  <br> ONNX (int8) <br> ONNX (int8) </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> [Link]  <br> [Link] <br> [Link] </td>
-      <td> X.XMB  <br> X.XMB  <br> X.XMB </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-      <td> XX.X    <br> XX.X    <br> XX.X   </td>
-      <td> -        <br> XX.X    <br> XX.X   </td>
-  </tr>
+<tr><td>Architecture</td><td>Framework</td><td>Model</td><td>Logits</td><td>Size</td><td>Size Difference</td><td>Top1 Error</td><td>Top1 Error Difference </td><td>Top5 Error</td><td>Top5 Error Difference</td></tr>
+<tr><td>squeezenet1_0</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/squeezenet1_0-b66bff10.pth"> Link </a> </td><td><a href=" https://drive.google.com/file/d/17wsSLJC4kXnuYN5g4HH3xEuzy3aI7KM8/view?usp=sharing "> Link </a> </td><td>4876.65625</td><td>--</td><td>41.908</td><td>--</td><td>19.578</td><td>--</td></tr>
+<tr><td>squeezenet1_0</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/106Ix1RS_s1irujC1-RQgvltOaQ3-rszg/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1ZjrEA4M47ryBa7kgxecBFylK17a9UeFw/view?usp=sharing"> Link </a> </td><td>4885.956055</td><td>-0.190700435</td><td>41.908</td><td>0</td><td>19.578</td><td>0</td></tr>
+<tr><td>squeezenet1_0</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/1-8D5FNcjtDlQ5s5vMWA2WjH2KFsdjUFU/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1JyITMxww4Rn4eo0GeaL_BKG8UeIsBp3s/view?usp=sharing"> Link </a> </td><td>1265.938477</td><td>74.0408507</td><td>42.262</td><td>-0.844707454</td><td>19.766</td><td>-0.960261518</td></tr>
+<tr><td>squeezenet1_1</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/squeezenet1_1-b8a52dc0.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1--RQw4nu8Hd3v0AQTmvJyfLLP7gks9e5/view?usp=sharing "> Link </a> </td><td>4826.15625</td><td>--</td><td>41.822</td><td>--</td><td>19.376</td><td>--</td></tr>
+<tr><td>squeezenet1_1</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/1-yDUvjSayX5lLZ5_vGekNmu05OJhuM-d/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-FqjUhoEbIpKIk3GBOe9Z8CxxxBhwmHj/view?usp=sharing"> Link </a> </td><td>4835.462891</td><td>-0.192837532</td><td>41.822</td><td>0</td><td>19.376</td><td>0</td></tr>
+<tr><td>squeezenet1_1</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/1-6yyMpUDtc8kSIC17gaJunDeU11kqigy/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1--PqnMMfAeFKCockS2P998q-iNojVo-g/view?usp=sharing"> Link </a> </td><td>1253.239258</td><td>74.03235219</td><td>41.876</td><td>-0.129118646</td><td>19.474</td><td>-0.505780347</td></tr>
+<tr><td>densenet121</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/densenet121-a639ec97.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-CU-FMlMd7NVjYbgWk51tUhLUkjPgFdV/view?usp=sharing"> Link </a> </td><td>31495.10156</td><td>--</td><td>25.566</td><td>--</td><td>8.028</td><td>--</td></tr>
+<tr><td>densenet121</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/108Ozb1gDAsFxNXe3sZd1FtVPRychxTZz/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-KQOhbuFvvkIW2ZZOift7r0PmF_3i9bB/view?usp=sharing"> Link </a> </td><td>31488.85156</td><td>0.019844356</td><td>25.566</td><td>0</td><td>8.028</td><td>0</td></tr>
+<tr><td>densenet121</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/1-3BEnMA69IjK-PKHw6HFC0DssQPGwMAr/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1yz1qOPScAyflRyovKv65uxnEaO6ZiqmO/view?usp=sharing"> Link </a> </td><td>8483.738281</td><td>73.0633087</td><td>27.528</td><td>-7.67425487</td><td>9.176</td><td>-14.29995017</td></tr>
+<tr><td>densenet161</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/densenet161-8d451a50.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-GCy_q0vmptGj9TbEgfhjHUMQn-X5WOb/view?usp=sharing"> Link </a> </td><td>112895.5391</td><td>--</td><td>22.862</td><td>--</td><td>6.44</td><td>--</td></tr>
+<tr><td>densenet161</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/10DtRA09-zQUAVLsEICg32AxGyPNAdIKn/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-OKi4cAf307KSPHSjJiJhHBMBHOxavBV/view?usp=sharing"> Link </a> </td><td>112834.3564</td><td>0.054194008</td><td>22.862</td><td>0</td><td>6.44</td><td>0</td></tr>
+<tr><td>densenet161</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/1-8XBo1mk_a8IxybNr478paWTUo9OnXTs/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-0POVymI9XhU1KOBku-3NtB5Nh_LdSIN/view?usp=sharing"> Link </a> </td><td>29619.47168</td><td>73.76382457</td><td>23.082</td><td>-0.962295512</td><td>6.49</td><td>-0.776397516</td></tr>
+<tr><td>densenet169</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/densenet169-b2777c0a.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-JrbSncOBnLNMDTNz5XPyfWy8hBfoXVe/view?usp=sharing"> Link </a> </td><td>55891.47656</td><td>--</td><td>24.398</td><td>--</td><td>7.194</td><td>--</td></tr>
+<tr><td>densenet169</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/10Fy4GAFFXsqao_S_QivHZz0vk_z87HEr/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-DXXYLLn63FKvS9kcrkumVf_UugjSuqT/view?usp=sharing "> Link </a> </td><td>55889.5918</td><td>0.003372188</td><td>24.398</td><td>0</td><td>7.194</td><td>0</td></tr>
+<tr><td>densenet169</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/1-ACTWXl582arVeCh63sCSN632IryjHaj/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-ZAbRKRU5RIhPoB36iPsrYMotkbUltU3/view?usp=sharing"> Link </a> </td><td>15075.55957</td><td>73.0270866</td><td>24.746</td><td>-1.426346422</td><td>7.344</td><td>-2.085070892</td></tr>
+<tr><td>densenet201</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/densenet201-c1103571.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-MXwh0okInK8zAGc2hd5-6S1T1rOdYfJ/view?usp=sharing "> Link </a> </td><td>79075.72656</td><td>--</td><td>23.102</td><td>--</td><td>6.63</td><td>--</td></tr>
+<tr><td>densenet201</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/10Nl6Q0ZNktEHYwX89vKNHt125cJQYPl6/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-_eTfNgGUFnJfyn_EBnAk59GUirOQB6v/view?usp=sharing"> Link </a> </td><td>79080.71094</td><td>-0.006303293</td><td>23.102</td><td>0</td><td>6.63</td><td>0</td></tr>
+<tr><td>densenet201</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/1-E8OPq4K-ntKgT6tNMca-GCi9IgJ2iws/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-Fpm1EnBdiajr3C5raGYn13aebsRaUpk/view?usp=sharing"> Link </a> </td><td>21325.51953</td><td>73.03152249</td><td>25.252</td><td>-9.306553545</td><td>7.798</td><td>-17.61689291</td></tr>
+<tr><td>inception_v3</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/inception_v3_google-0cc3c7bd.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1Ww1CqVPYXLFV93wJYFjk4i1rkOY3Hs8F/view?usp=sharing"> Link </a> </td><td>106240.9375</td><td>--</td><td>30.462</td><td>--</td><td>11.346</td><td>--</td></tr>
+<tr><td>inception_v3</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/10NzHEG6o2G0rln2Fvc9Rs9ypuRhrDu3u/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-bobTWyKIJtBhiUsqRRA4oiQ6BLxpDzU/view?usp=sharing "> Link </a> </td><td>93068.26953</td><td>12.3988627</td><td>30.462</td><td>0</td><td>11.346</td><td>0</td></tr>
+<tr><td>inception_v3</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/1-Gw9uqpS-6K-HsFNSDjkXI3SPoFWHgox/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1AhK_OQwILZS5uDQqA6gD30ggnJXVqoCw/view?usp=sharing"> Link </a> </td><td>23430.88086</td><td>77.94552513</td><td>31.474</td><td>-3.322171886</td><td>12.026</td><td>-5.993301604</td></tr>
+<tr><td>googlenet</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/googlenet-1378be20.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-5EAYKcfedM1P0v9sSGn5Ey_ehIbkBti/view?usp=sharing "> Link </a> </td><td>25935.85156</td><td>--</td><td>30.222</td><td>--</td><td>10.47</td><td>--</td></tr>
+<tr><td>googlenet</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/10SuCXyAVwdo9KncZmwcGUimsj2aVQ5gi/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-h7TTzGDSdudpH5T07he80QxSNHIJvSp/view?usp=sharing"> Link </a> </td><td>25869.42383</td><td>0.256123205</td><td>30.222</td><td>0</td><td>10.47</td><td>0</td></tr>
+<tr><td>googlenet</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/1-J6032_WHIvA0LlnEDwJ9kslgV1tsk13/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1--ngKdIMf8tbbSWihIeqlXF4OHpPIT9J/view?usp=sharing"> Link </a> </td><td>6558.182617</td><td>74.71383347</td><td>30.868</td><td>-2.137515717</td><td>10.946</td><td>-4.546322827</td></tr>
+<tr><td>shufflenet_v2_x0_5</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/shufflenetv2_x0.5-f707e7126e.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-5FBWwFzpAdn3bT5dlcfSis78_9BmFUa/view?usp=sharing "> Link </a> </td><td>5370.53125</td><td>--</td><td>39.45</td><td>--</td><td>18.254</td><td>--</td></tr>
+<tr><td>shufflenet_v2_x0_5</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/10TpMOI7DFXnfEFpwGL3PdZTPy1jEAfxg/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-n_BToiLa7TlsKX1fGMo_psIHsVw0aed/view?usp=sharing"> Link </a> </td><td>5388.285156</td><td>-0.330580075</td><td>39.45</td><td>0</td><td>18.254</td><td>0</td></tr>
+<tr><td>shufflenet_v2_x0_5</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/1-dZ36U85W41znxBM57frufyfYRzKBuaE/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-5yatWyNWMNFmGI3wYq4rXGk8uQpFzEv/view?usp=sharing"> Link </a> </td><td>1458.428711</td><td>72.8438651</td><td>43.124</td><td>-9.313054499</td><td>21.042</td><td>-15.27336474</td></tr>
+<tr><td>shufflenet_v2_x1_0</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/shufflenetv2_x1-5666bf0f80.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-EnSTMbCwA--Pam8MfOtmEkRKQ-BoccM/view?usp=sharing"> Link </a> </td><td>8964.4375</td><td>--</td><td>30.636</td><td>--</td><td>11.684</td><td>--</td></tr>
+<tr><td>shufflenet_v2_x1_0</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/10aCvZMpUfDOXUQy8SAUZsko-GO0NGUgo/view?usp=sharing"> Link </a> </td><td><a href=" https://drive.google.com/file/d/1-zEEUi-Aa2eFg_rz0nH_V10ZMRh1Pkiz/view?usp=sharing"> Link </a> </td><td>8934.080078</td><td>0.338642797</td><td>30.636</td><td>0</td><td>11.684</td><td>0</td></tr>
+<tr><td>shufflenet_v2_x1_0</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/1-cZ0-OhtTEpP78o2VQpANRG2hjuVIXVy/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-6o_QCKdEwwxWgrV1QYAEQflq5rfjYCd/view?usp=sharing"> Link </a> </td><td>2356.994141</td><td>73.70728347</td><td>34.524</td><td>-12.69095182</td><td>14.162</td><td>-21.20849024</td></tr>
+<tr><td>shufflenet_v2_x1_5</td><td>PyTorch (fp32)</td><td><a href=""> Link </a> </td><td><a href=" https://drive.google.com/file/d/1-GveoZOdeQvSJZRNcw4PVVaPxEOvexy5/view?usp=sharing"> Link </a> </td><td>13778.03125</td><td>--</td><td>27.222</td><td>--</td><td>8.948</td><td>--</td></tr>
+<tr><td>shufflenet_v2_x1_5</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/10eHFVAZm-6dbOg6S8uzo3duZls1oOcU3/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/100gzdp9U-A2TdvPATDP7aazAVbDkkxo6/view?usp=sharing"> Link </a> </td><td>13705.22656</td><td>0.528411398</td><td>27.222</td><td>0</td><td>8.948</td><td>0</td></tr>
+<tr><td>shufflenet_v2_x1_5</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/1-PLwfYe8uolWNdOQ-NaRqykav1DN9WAX/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-GMXnLmHayBux8POuQ5V_e8Buq8y5nIm/view?usp=sharing"> Link </a> </td><td>3560.501953</td><td>74.15812253</td><td>28.778</td><td>-5.715965028</td><td>9.812</td><td>-9.655789003</td></tr>
+<tr><td>shufflenet_v2_x2_0</td><td>PyTorch (fp32)</td><td><a href=""> Link </a> </td><td><a href=" https://drive.google.com/file/d/1-JknAdp_5Pint6y8AYXLZPGmyzWiqhvd/view?usp=sharing "> Link </a> </td><td>29014.9375</td><td>--</td><td>23.788</td><td>--</td><td>7.12</td><td>--</td></tr>
+<tr><td>shufflenet_v2_x2_0</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/10eNh3q0aLWUIFD90JH9Xv5-k-jDxPLNR/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/10Fn2yWSg3XWXamrU5nCr8qxG_zMnpNuV/view?usp=sharing"> Link </a> </td><td>28881.93164</td><td>0.458404776</td><td>23.788</td><td>0</td><td>7.12</td><td>0</td></tr>
+<tr><td>shufflenet_v2_x2_0</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/1-kD37mqZ_KYQW6Ih_gs2IgSt9Y-5GBa8/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-JpT2HqgqGFVv-QSLD_wHCztc6u-WqpR/view?usp=sharing"> Link </a> </td><td>7369.730469</td><td>74.60021939</td><td>27.412</td><td>-15.23457205</td><td>9.024</td><td>-26.74157303</td></tr>
+<tr><td>mobilenet_v2</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/mobilenet_v2-b0353104.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-P7BAKLhIZ4VYYRhvX9eMoyizD3JToCi/view?usp=sharing "> Link </a> </td><td>13824.5625</td><td>--</td><td>28.122</td><td>--</td><td>9.714</td><td>--</td></tr>
+<tr><td>mobilenet_v2</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/10lgT9WVrMJINb8vRIiUJ7CVWhbxrlL_x/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/10HGxyHQOl6iVZVGQeqkqwBPK3jnWaTM1/view?usp=sharing"> Link </a> </td><td>13643.93555</td><td>1.30656542</td><td>28.122</td><td>0</td><td>9.714</td><td>0</td></tr>
+<tr><td>mobilenet_v2</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/1-fbxhHQvHlTjRANavMifSSNI3_UzZWQ8/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-XBvN8v5tm4yFUWPYXsPC9U2t-29KQ4o/view?usp=sharing"> Link </a> </td><td>3527.900391</td><td>74.48092559</td><td>29.458</td><td>-4.750728967</td><td>10.412</td><td>-7.185505456</td></tr>
+<tr><td>resnext50_32x4d</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/resnext50_32x4d-7cdf4587.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-QdtTXhDfyqcaaFfujar8iAlDSFddtCI/view?usp=sharing "> Link </a> </td><td>98036.07031</td><td>--</td><td>22.382</td><td>--</td><td>6.302</td><td>--</td></tr>
+<tr><td>resnext50_32x4d</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/10mawzsavXAAgzUH3r954-a8oPqC68IZC/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/10HivNYtydJ-4TrrTinemuMGkd3cGBx2g/view?usp=sharing"> Link </a> </td><td>97651.54102</td><td>0.392232467</td><td>22.382</td><td>0</td><td>6.302</td><td>0</td></tr>
+<tr><td>resnext50_32x4d</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/1-kQVZ7aWSepVygKfOW0tu9aN10G2_qVR/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-ZLrzzCXkVCuUjJl_PoEvZJ8jwXKn7Hy/view?usp=sharing"> Link </a> </td><td>24581.19629</td><td>74.92637535</td><td>22.586</td><td>-0.911446698</td><td>6.442</td><td>-2.221516979</td></tr>
+<tr><td>wide_resnet50_2</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/wide_resnet50_2-95faca4d.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-RXMriPkvQQFp7m9anCifVCAqyjalD-U/view?usp=sharing "> Link </a> </td><td>269342.0703</td><td>--</td><td>21.532</td><td>--</td><td>5.914</td><td>--</td></tr>
+<tr><td>wide_resnet50_2</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/10wXc5_JYAyBIGEHa3DsksSnPaVwldlBo/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/10P5HOcWEINJMrrDxA_ym0ULBvCl9Ve0_/view?usp=sharing"> Link </a> </td><td>268957.583</td><td>0.142750557</td><td>21.532</td><td>0</td><td>5.914</td><td>0</td></tr>
+<tr><td>wide_resnet50_2</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/1-pPSJrzqpq5MRS8bQAsOe416GvTR6fnl/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1sq7xKpjdQAiw0jd7zAI7ssygpiFh-ugg/view?usp=sharing"> Link </a> </td><td>67407.73047</td><td>74.97318915</td><td>21.6</td><td>-0.315809028</td><td>5.952</td><td>-0.642543118</td></tr>
+<tr><td>wide_resnet101_2</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/wide_resnet101_2-32ee1156.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-Rdo3y0uV1INItEIumVao19YAdoC8zMA/view?usp=sharing "> Link </a> </td><td>496190.4688</td><td>--</td><td>21.154</td><td>--</td><td>5.716</td><td>--</td></tr>
+<tr><td>wide_resnet101_2</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/10wi-I7gpvmS6zVvvTh-0K_Vqoa0xiblY/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/10RIDWEM41-JBkmmXfG6NTMxbVmrj9__y/view?usp=sharing"> Link </a> </td><td>495413.0117</td><td>0.156685201</td><td>21.154</td><td>0</td><td>5.716</td><td>0</td></tr>
+<tr><td>wide_resnet101_2</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/1-qwGhpISfPDyGv1RzqVStD0-GuRo6USN/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-4W_Vb_MAj6vwVOC8ttFGVYJimpyFJdl/view?usp=sharing"> Link </a> </td><td>124187.6826</td><td>74.97177184</td><td>21.354</td><td>-0.945447669</td><td>5.83</td><td>-1.994401679</td></tr>
+<tr><td>mnasnet0_5</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/mnasnet0.5_top1_67.823-3ffadce67e.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-SM1VlRa2K8j2iVxxQSSrbO2ZD0ELBxB/view?usp=sharing "> Link </a> </td><td>8747.03125</td><td>--</td><td>32.264</td><td>--</td><td>12.508</td><td>--</td></tr>
+<tr><td>mnasnet0_5</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/116tzTowZty8BhyHv-Hjsov3JPMWvT6S7/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/10RpLTbmoRj1EsKNaVTbdolitdGk-Z07D/view?usp=sharing"> Link </a> </td><td>8639.831055</td><td>1.225560905</td><td>32.264</td><td>0</td><td>12.508</td><td>0</td></tr>
+<tr><td>mnasnet0_5</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/106aLwaGgY0LEjH-hrXr5Gdm_58ru_Efz/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1t-SIlXfPK3riN8RIeSvH79bUSu4s-HPY/view?usp=sharing"> Link </a> </td><td>2255.282227</td><td>74.21659804</td><td>99.904</td><td>-209.6454252</td><td>99.502</td><td>-695.5068756</td></tr>
+<tr><td>mnasnet0_75</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/mnasnet0_75-7090bc5f.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-T9zuzsj7LQsE8MSptyS9p9bPXffJibf/view?usp=sharing "> Link </a> </td><td>12500.46875</td><td>--</td><td>29.122</td><td>--</td><td>9.854</td><td>--</td></tr>
+<tr><td>mnasnet0_75</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/111YtSP6RXWqzMLOG8u_RUgjVcXNbwqLw/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/10UbB4MolHfQCmnHFwFw29rJIisr4v87-/view?usp=sharing"> Link </a> </td><td>12339.48145</td><td>1.287850143</td><td>29.122</td><td>0</td><td>9.854</td><td>0</td></tr>
+<tr><td>mnasnet0_75</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/105ulggY_P5EU0bbuUYM8z8FjStpX5Z_-/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-8F8ITQQ-762TZRZC9vfUNvLfTUtvpW_/view?usp=sharing"> Link </a> </td><td>3193.705078</td><td>74.45131745</td><td>30.2</td><td>-3.701668841</td><td>10.538</td><td>-6.941343617</td></tr>
+<tr><td>mnasnet1_0</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/mnasnet1.0_top1_73.512-f206786ef8.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-Vc7MMF0ZMFKAMV3qVgJ74k-bDrxG2Qp/view?usp=sharing "> Link </a> </td><td>17270.84375</td><td>--</td><td>26.544</td><td>--</td><td>8.49</td><td>--</td></tr>
+<tr><td>mnasnet1_0</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/112CtwDAvPATngraHN94I9DAMmGRdDbBW/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/10c99GCZrx9DcQO_LgI2A8ExwXroaD2wp/view?usp=sharing"> Link </a> </td><td>17062.34082</td><td>1.207253871</td><td>26.544</td><td>0</td><td>8.49</td><td>0</td></tr>
+<tr><td>mnasnet1_0</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/1049KV3CCoLHcnfI873HNKkGghrVYBjCw/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-Bf2ZhvL7zs3XXvsEdrJL0rAPqO3njRj/view?usp=sharing"> Link </a> </td><td>4386.300781</td><td>74.6028576</td><td>28.32</td><td>-6.690777577</td><td>9.452</td><td>-11.33097762</td></tr>
+<tr><td>mnasnet1_3</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/mnasnet1_3-a4c69d6f.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-fkZU_OryrYok_jJYjACPFxhzo4pxmty/view?usp=sharing "> Link </a> </td><td>24731.15625</td><td>--</td><td>23.92</td><td>--</td><td>6.704</td><td>--</td></tr>
+<tr><td>mnasnet1_3</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/113maElMITPshsyNfUq4PUTDszhRNDEba/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/10jiFh1zLqm3ej0b4i3Ni9qFDEjN42s2e/view?usp=sharing"> Link </a> </td><td>24458.84277</td><td>1.101094805</td><td>23.92</td><td>0</td><td>6.704</td><td>0</td></tr>
+<tr><td>mnasnet1_3</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/10F_lVEAcRYlWWjj3_cPhZNbdBGYu0trf/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1horWiH2PoPGnUUYzfGO4Kc63dkarkNAK/view?usp=sharing"> Link </a> </td><td>6251.413086</td><td>74.72251996</td><td>25.226</td><td>-5.459866221</td><td>7.474</td><td>-11.48568019</td></tr>
+<tr><td>alexnet</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/alexnet-owt-7be5be79.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-gRj2iPLsRf6mEUyWJfIELeHpSFzhuVK/view?usp=sharing "> Link </a> </td><td>238675.1563</td><td>--</td><td>43.476</td><td>--</td><td>20.934</td><td>--</td></tr>
+<tr><td>alexnet</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/1-KJwC5S0Bt0C3WmFGw68pKgWRn2vzKQd/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/10k_U5yUY1PTegLSsT-muCHraTd-RlFqL/view?usp=sharing"> Link </a> </td><td>238677.834</td><td>-0.001121916</td><td>43.476</td><td>0</td><td>20.934</td><td>0</td></tr>
+<tr><td>alexnet</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/10IXdi4amU1YW546Y9A26CT4piZYvTiYf/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1--1LqQNww88ndQxrQvrJBw7Uo3hVYxoj/view?usp=sharing"> Link </a> </td><td>59709.30371</td><td>74.98302519</td><td>43.848</td><td>-0.855644494</td><td>21.116</td><td>-0.869399064</td></tr>
+<tr><td>vgg11</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/vgg11-8a719046.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-yAgER--KETogbO0O0esPtDFL8ptk98H/view?usp=sharing "> Link </a> </td><td>518997.4063</td><td>--</td><td>30.978</td><td>--</td><td>11.372</td><td>--</td></tr>
+<tr><td>vgg11</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/1-KWg1qz-U0iHhemdftrIjNwNnAPsd0Cn/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/10q1-ffnlDHEDZgc3E9bsjLpplEi3zWXb/view?usp=sharing "> Link </a> </td><td>519001.1865</td><td>-0.00072838</td><td>30.978</td><td>0</td><td>11.372</td><td>0</td></tr>
+<tr><td>vgg11</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/10JSKoqNGPxhTdaxPBTiXb5b8eDXR7Q_d/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1DZrPUdRg48PHXlKSyCghpd2-Vz-gNXfw/view?usp=sharing"> Link </a> </td><td>129798.6816</td><td>74.99049512</td><td>31.022</td><td>-0.142036284</td><td>11.358</td><td>0.123109391</td></tr>
+<tr><td>vgg11_bn</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/vgg11_bn-6002323d.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/10-qCgMZx47e5oGkxO7UWAb6I-Ei7Oq9G/view?usp=sharing "> Link </a> </td><td>519040.4688</td><td>--</td><td>29.628</td><td>--</td><td>10.19</td><td>--</td></tr>
+<tr><td>vgg11_bn</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/1-PYNxpXYpSfLfl17Ry7yP62P1WMWgopH/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/10rT6FGarmtrOuOFib1kMvXl6uUsyRbFd/view?usp=sharing "> Link </a> </td><td>519001.1104</td><td>0.007582915</td><td>29.628</td><td>0</td><td>10.19</td><td>0</td></tr>
+<tr><td>vgg11_bn</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/10NAoQAdZ6JanfANG5WIK6oqLifBKtEAy/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-2DMc-8E15SLOdIMFD5C7mxb3gL6hrmJ/view?usp=sharing"> Link </a> </td><td>129798.5127</td><td>74.9926026</td><td>29.858</td><td>-0.776292696</td><td>10.348</td><td>-1.550539745</td></tr>
+<tr><td>vgg13</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/vgg13-19584684.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/10187bPwdK5wZILkBvh8-HZd6A5vEdP9R/view?usp=sharing "> Link </a> </td><td>519718.1563</td><td>--</td><td>30.07</td><td>--</td><td>10.754</td><td>--</td></tr>
+<tr><td>vgg13</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/1-U1XeDuF4XQHkjX8hUqSHdSE6DeqXXr1/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/10rxLdRRKId6a7e7Px4E4mmIgpj12n5L1/view?usp=sharing "> Link </a> </td><td>519722.4922</td><td>-0.000834286</td><td>30.07</td><td>0</td><td>10.754</td><td>0</td></tr>
+<tr><td>vgg13</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/10SL5y3wuT8we_5W6WRr2WyVvdi0ApPPI/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-8KBiU6HdIuMcWTRapAB-IV9J4cc-OnG/view?usp=sharing "> Link </a> </td><td>129981.9629</td><td>74.98991303</td><td>30.106</td><td>-0.119720652</td><td>10.694</td><td>0.557931932</td></tr>
+<tr><td>vgg13_bn</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/vgg13_bn-abd245e5.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/101qMiJvRKytcsyXKbPhtMXkTBPvrFSph/view?usp=sharing "> Link </a> </td><td>519764.2344</td><td>--</td><td>28.412</td><td>--</td><td>9.626</td><td>--</td></tr>
+<tr><td>vgg13_bn</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/1-aFs0cL_3436r-8WU0_HJZ7lIOE00TQF/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/10wbobOW8dlzkawm8zS0ZXgc9aTQhyOma/view?usp=sharing"> Link </a> </td><td>519722.416</td><td>0.00804564</td><td>28.412</td><td>0</td><td>9.626</td><td>0</td></tr>
+<tr><td>vgg13_bn</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/10Z2v403PtLDGMgin9oN6wVndngoL7QPn/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-9qOUYw27hylXUDJh16y79JdYt-B_p79/view?usp=sharing "> Link </a> </td><td>129981.8242</td><td>74.9921569</td><td>28.714</td><td>-1.062931156</td><td>9.768</td><td>-1.475171411</td></tr>
+<tr><td>vgg16</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/vgg16-397923af.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1027a_z2gUqh3SHUx_tgTNlg-Qazb1Cdg/view?usp=sharing "> Link </a> </td><td>540459.1563</td><td>--</td><td>28.406</td><td>--</td><td>9.618</td><td>--</td></tr>
+<tr><td>vgg16</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/1-g6SIZ6sjoeA5x9qGELOsU56mV6iWK94/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/10zaElUf1V7dQ71CV0oyQhfgTjH4BY8uu/view?usp=sharing "> Link </a> </td><td>540464.3359</td><td>-0.000958386</td><td>28.406</td><td>0</td><td>9.618</td><td>0</td></tr>
+<tr><td>vgg16</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/10bIItZ-a7MMsLScp_4uiR_ZoQHg3xd7k/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-4jK0kPfaUz8x5kSHe78JW0xK8Ur1KDR/view?usp=sharing "> Link </a> </td><td>135174.7607</td><td>74.98890357</td><td>28.432</td><td>-0.091529958</td><td>9.608</td><td>0.10397172</td></tr>
+<tr><td>vgg16_bn</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/vgg16_bn-6c64b313.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/103mHv3Lrw5npzMghh3UpCb7pFSZ7SBlW/view?usp=sharing "> Link </a> </td><td>540525.2578</td><td>--</td><td>26.638</td><td>--</td><td>8.484</td><td>--</td></tr>
+<tr><td>vgg16_bn</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/1-juNiBGJyokt-6QBQT734TbKklJiqZjh/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/110U03PuaCaKN42DPpSFNkpVxL8Czjzv9/view?usp=sharing"> Link </a> </td><td>540464.251</td><td>0.011286584</td><td>26.638</td><td>0</td><td>8.484</td><td>0</td></tr>
+<tr><td>vgg16_bn</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/10cVf-Dxa1MG-SoBM_9xf7-IbEgKMge2E/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-5VCw8s45_ftHF4cdtS0Bpw3RIGcBvYA/view?usp=sharing "> Link </a> </td><td>135174.6572</td><td>74.99198136</td><td>27.424</td><td>-2.950671972</td><td>8.812</td><td>-3.866100896</td></tr>
+<tr><td>resnet18</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/resnet18-5c106cde.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-ipLezDfQArdeawjIVo1IXHuuD3D_5d9/view?usp=sharing "> Link </a> </td><td>45699.8125</td><td>--</td><td>30.24</td><td>--</td><td>10.922</td><td>--</td></tr>
+<tr><td>resnet18</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/1-roY611yUfph9WlnGvQ-9dENgrDg7Thu/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/11FX8M_5Ho5dtem5oCFplD9o8qETnzLO-/view?usp=sharing"> Link </a> </td><td>45649.63965</td><td>0.109787872</td><td>30.24</td><td>0</td><td>10.922</td><td>0</td></tr>
+<tr><td>resnet18</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/10gXzLIDyn85ik6k4VcNmVh2mjcoCct0k/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1Q8-pNOTqNbSVGVLXdGhvyI-jQG-PKfad/view?usp=sharing"> Link </a> </td><td>11454.75195</td><td>74.93479442</td><td>30.576</td><td>-1.111111111</td><td>11.056</td><td>-1.226881524</td></tr>
+<tr><td>resnet34</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/resnet34-333f7ec4.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-ksaI04Hfnhvk-DAW7sVIp2bxOrcJJK7/view?usp=sharing "> Link </a> </td><td>85213.9375</td><td>--</td><td>26.688</td><td>--</td><td>8.58</td><td>--</td></tr>
+<tr><td>resnet34</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/1-sI3Gj45KIeg8ShZszxn5jT-sA_Hc3zR/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/11HHtRQ1KEfD2CdDl4QFAqiumFi5-3hIe/view?usp=sharing"> Link </a> </td><td>85124.93457</td><td>0.104446447</td><td>26.688</td><td>0</td><td>8.58</td><td>0</td></tr>
+<tr><td>resnet34</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/10jhQ3vd8KoO_VVa3-U9W6wgvfkTR9fpW/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-LGs_cgSje6w3UIcVj78_MPfqibCqQaC/view?usp=sharing"> Link </a> </td><td>21354.38184</td><td>74.94027097</td><td>26.964</td><td>-1.034172662</td><td>8.732</td><td>-1.771561772</td></tr>
+<tr><td>resnet50</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/resnet50-19c8e357.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-mMGdbnylUC5EiLk1svorGRVQbuvKBLk/view?usp=sharing "> Link </a> </td><td>100040.0703</td><td>--</td><td>23.868</td><td>--</td><td>7.138</td><td>--</td></tr>
+<tr><td>resnet50</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/1-uo4yhTH90AAkybIbUrySbTNlnCNq9aW/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/11NA_t2O38qZ2Pk5R7zMvfJX8jF7mslO8/view?usp=sharing"> Link </a> </td><td>99744.03516</td><td>0.295916582</td><td>23.868</td><td>0</td><td>7.138</td><td>0</td></tr>
+<tr><td>resnet50</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/10klQ2AEWbGsf3WGUaCqM74qxdw02i6cZ/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-RHimrX5-VKJFxt2Jpt7WueTvTb7D-_j/view?usp=sharing"> Link </a> </td><td>25082.18262</td><td>74.92786387</td><td>24.472</td><td>-2.530584884</td><td>7.394</td><td>-3.586438778</td></tr>
+<tr><td>resnet152</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/resnet152-b121ed2d.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-mO30nOLGlmnQXQzn7GdbAj5HQmaViWV/view?usp=sharing"> Link </a> </td><td>235720.8672</td><td>--</td><td>21.686</td><td>--</td><td>5.954</td><td>--</td></tr>
+<tr><td>resnet152</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/1-xm8OawFzikqDPzmZJYTAB80rWwo4kXN/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/16UwFHnyzmuilaOgJ79HVIOBjwmdq5ihz/view?usp=sharing"> Link </a> </td><td>234878.9131</td><td>0.357182676</td><td>21.686</td><td>0</td><td>5.954</td><td>0</td></tr>
+<tr><td>resnet152</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/1--XnvFYKYuGyeipdMmkd9RXlGEj9ZqXC/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-3Ylq4Yg5k5BbDeLZ9ycusoFclUNQDaV/view?usp=sharing"> Link </a> </td><td>59138.9082</td><td>74.91146672</td><td>21.78</td><td>-0.433459375</td><td>6.018</td><td>-1.074907625</td></tr>
+<tr><td>resnet101</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/resnet101-5d3b4d8f.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-v6LB2b0pCZ8ZynJtD5ke5C8hWPw4Cai/view?usp=sharing "> Link </a> </td><td>174432.4688</td><td>--</td><td>22.626</td><td>--</td><td>6.454</td><td>--</td></tr>
+<tr><td>resnet101</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/1-v0iyrEJW2_2KxJ73mma3vtaj-nmIH8E/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-1oNWCizCh6w4SDs5A0OiW5xjkdwRBTb/view?usp=sharing"> Link </a> </td><td>173845.3975</td><td>0.336560787</td><td>22.626</td><td>0</td><td>6.454</td><td>0</td></tr>
+<tr><td>resnet101</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/10rWq5mEx1en7TEI0WeANzUNdnAtrs8ON/view?usp=sharing"> Link </a> </td><td><a href="https://drive.google.com/file/d/1-6Yu7d9VqN8DFvdB91dBRJicVH8WDlS8/view?usp=sharing"> Link </a> </td><td>43748.09863</td><td>74.91975035</td><td>22.896</td><td>-1.193317422</td><td>6.514</td><td>-0.929656027</td></tr>
+<tr><td>vgg19</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/vgg19-dcbb9e9d.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/106N4F0ITItbjPkkcUG5a3eOuDVpP5_5l/view?usp=sharing "> Link </a> </td><td>--</td><td>--</td><td>28.406</td><td>--</td><td>9.618</td><td>--</td></tr>
+<tr><td>vgg19</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/1-n51OYH0gPByW5pkLosQxbDKr_bCRMY6/view?usp=sharing"> Link </a> </td><td><a href=""> Link </a> </td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
+<tr><td>vgg19</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/10dIna-YgpNBFmQkqQgBEJcWYlwNp0_Kl/view?usp=sharing"> Link </a> </td><td><a href=""> Link </a> </td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
+<tr><td>vgg19_bn</td><td>PyTorch (fp32)</td><td><a href="https://download.pytorch.org/models/vgg19_bn-c79401a0.pth"> Link </a> </td><td><a href="https://drive.google.com/file/d/108Tp_YIEo6uYilzjufHgmIa5tRPPfRBF/view?usp=sharing "> Link </a> </td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
+<tr><td>vgg19_bn</td><td>Onnx (fp32)</td><td><a href="https://drive.google.com/file/d/1-r1Oe4X6M-p2VoRrmQ6hwSetMGuSSyGu/view?usp=sharing"> Link </a> </td><td><a href=""> Link </a> </td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
+<tr><td>vgg19_bn</td><td>Onnx (Int8)</td><td><a href="https://drive.google.com/file/d/10faTqcCCuMAtFGzUT7ishdvDpU2Qau58/view?usp=sharing"> Link </a> </td><td><a href=""> Link </a> </td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
+
+
 </table>
 
 <!---------------------------------
