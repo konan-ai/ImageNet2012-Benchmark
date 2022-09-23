@@ -18,7 +18,7 @@
         <td>squeezenet1_0</td>
         <td>PyTorch (fp32)</td>
         <td><a href="https://download.pytorch.org/models/squeezenet1_0-b66bff10.pth">Link</a></td>
-        <td><a href=" https://drive.google.com/file/d/17wsSLJC4kXnuYN5g4HH3xEuzy3aI7KM8/view?usp=sharing ">Link</a></td>
+        <td><a href="https://drive.google.com/file/d/17wsSLJC4kXnuYN5g4HH3xEuzy3aI7KM8/view?usp=sharing">Link</a></td>
         <td> 4.88MB </td>
         <td>--</td>
         <td>41.91</td>
