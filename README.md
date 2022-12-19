@@ -1253,7 +1253,19 @@ TODO: Add Results
 
 ### PyTorch Model Pre-processing
 ```
-# TODO: Add code
+imagenet_directory = '/content/drive/MyDrive/Research/data/ILSVRC2012/val'
+
+imagenet_transform = torchvision.transforms.Compose([
+    torchvision.transforms.Resize(256),
+    torchvision.transforms.CenterCrop(224),
+    torchvision.transforms.ToTensor(),
+    torchvision.transforms.Normalize(
+        mean=[0.485, 0.456, 0.406],
+        std =[0.229, 0.224, 0.225])])
+
+imagenet_dataset = torchvision.datasets.ImageFolder(
+    imagenet_directory,
+    imagenet_transform)
 ```
 
 ### PyTorch Inference Example
