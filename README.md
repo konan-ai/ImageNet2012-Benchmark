@@ -1,4 +1,4 @@
-# deploy-imagenet
+# ImageNet2022-Benchmark
 
 ### Result Summary:
 
