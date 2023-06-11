@@ -1,4 +1,4 @@
-# ImageNet2022-Benchmark
+# ImageNet2012-Benchmark
 
 ### Result Summary:
 
