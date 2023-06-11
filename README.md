@@ -1246,11 +1246,6 @@ TODO: Make cleaner column header
 TODO: Add Results 
 ---------------------------------->
 
-### PyTorch Model Loading
-```
-# TODO: Add code
-```
-
 ### PyTorch Model Pre-processing
 ```
 imagenet_directory = '/content/drive/MyDrive/Research/data/ILSVRC2012/val'
@@ -1268,8 +1263,17 @@ imagenet_dataset = torchvision.datasets.ImageFolder(
     imagenet_transform)
 ```
 
-### PyTorch Inference Example
-```
-# TODO: Add code
-```
+### Result Summary:
+
+The results show that different combinations of architecture and framework have varying effects on model size, error rates, and their respective differences. It is observed that for all architectures, using the Onnx (Int8) format results in significant reductions in model size, compared to the PyTorch (fp32) and Onnx (fp32) formats. However, this comes at the cost of increased error rates, specifically Top1 Error and Top5 Error, which have slight to drastic increases.
+
+### Recommendation:
+
+The table shows valuable insights for making informed decisions about the trade-off between model size and accuracy. It should be used responsibly, keeping in mind the end-goal of the deployment. 
+
+If the objective is to reduce model size for memory efficiency, while being flexible with a slight increase in error rates, then the Onnx (Int8) format would be a suitable choice. This would be especially relevant for deployment on systems with limited resources or for applications where the increase in error rates does not drastically impact the overall performance.
+
+However, if the objective is to maintain the highest possible accuracy, the PyTorch (fp32) or Onnx (fp32) formats should be considered, as they consistently show the lowest error rates across all architectures.
+
+In all cases, it is essential to thoroughly test and validate the chosen model and framework on relevant datasets and use cases, to ensure that the trade-offs are well-understood and acceptable for the specific application.
 
